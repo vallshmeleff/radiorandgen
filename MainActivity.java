@@ -114,13 +114,13 @@ public class MainActivity extends AppCompatActivity {
         }
         int j = 0; // Counter in epattern
         // int lg = 0; // Not find
-        for (i = 0; i <= epr - eptt; i++) { // От начала до конца буфера
+        for (i = 0; i <= epr - eptt; i++) { // Buffer
             if (earray[i] == epattern[j]) {
 
                 if (j < eptt-1){
                     j++;
 
-                } else { // Если в потоке встретилась заданная последовательность
+                } else { // Finded
                     k++;
                     Log.i("== Stream FIND =", " == == Given array efind found in data stream == == !!!!!!!!!!!!!!!!!!" + String.valueOf(k));
                 }
