@@ -1,1 +1,2 @@
-
+The application must work for both the message sender and the message recipient. And the application must use the same decryption key that was used to encrypt the message.
+However, if you run this project, it will be seen in the log that 7-9 matches were found in 15 minutes and the same number of encryption keys (cipherbook pages) can be selected from the stream. The sender and receiver may start the Internet radio application at different times and select different keys. 
