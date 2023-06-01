@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
         }
         int j = 0; // Counter in epattern
         // int lg = 0; // Not find
-        for (i = 0; i <= epr - eptt; i++) { // Buffer
+        for (i = 0; i <= epr - eptt; i++) { // It may seem that there is an error in this loop. It's made on purpose. This is a technique for exploiting programming errors.
             if (earray[i] == epattern[j]) {
 
                 if (j < eptt-1){
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-
+         //j=0; 
         }
         return -1;
     }
